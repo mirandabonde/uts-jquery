@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- menggunakan alert -->
+    <script>
+        alert("Halo, ini adalah pesan dari Javascript!");
+    </script>
+
+    <!-- menggunakan console developer -->
+    <script>
+        console.log("Teks ini akan tampilkan di konsol.");
+    </script>
+
+    <!-- menggunakan teks dokumen -->
+    <script>
+        document.write("Teks ini akan ditulis di dokumen.");
+    </script>
+
+    <!-- menggunakan innerHTML atau InnerText -->
+    <div id="target"></div>
+    <script>
+        document.getElementById("target"). innerHtml = "Teks Ini akan ditampilkan di elemen dengan ID target.";
+    </script>
+
+    <!-- menggunakan prompt -->
+    <script>
+        var nama = prompt("Masukkan nama Anda: ");
+        alert("Halo, " + nama + "!");
+    </script>
+
+    <!-- menggunakan elemen HTML dan DOM manipulation -->
+    <p id="Hasil"></p>
+    <script>
+        document.getElementById("Hasil").innerHTML = "Hasil perhitungan : 10 + 5 + " + (10 + 5);
+    </script>
+</body>
+</html>
